@@ -5,7 +5,7 @@ $(document).ready(function () {
     });
     observer.observe();
     // 立即購買btn動態
-    $('.offerbtn').click(function (e) { 
+    $('.offerbtn, .offerbtn_m').click(function (e) { 
         e.preventDefault();
         $('html , body').animate({
             scrollTop: $('#size').offset().top,

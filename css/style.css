@@ -31,6 +31,18 @@ html,body {
     right: 40%;
 }
 
+.SP .offerbox_m{
+    position: relative;
+}
+
+.SP .offerbox_m .offerbtn_m{
+    position: absolute;
+    width: 63%;
+    display: block;
+    right: 18%;
+    top: 47.5%;
+}
+
 .offerbtn:hover{
     opacity: 0.8; 
 }

@@ -71,14 +71,14 @@
     <!-- EBiS tag version4.10 start 20200603-->
     <script type="text/javascript">
         (function (a, d, e, b, i, s) {
-        window[i] = window[i] || []; var f = function (a, d, e, b, i, s) {
-            var o = a.getElementsByTagName(d)[0], h = a.createElement(d), t = 'text/javascript';
-            h.type = t; h.async = e; h.onload = function () {
-                window[i].init(
-                    { argument: s, auto: true }
-                );
-            }; h._p = o; return h;
-        }, h = f(a, d, e, b, i, s), l = '//taj', j = b + s + '/cmt.js'; h.src = l + '1.' + j;
+            window[i] = window[i] || []; var f = function (a, d, e, b, i, s) {
+                var o = a.getElementsByTagName(d)[0], h = a.createElement(d), t = 'text/javascript';
+                h.type = t; h.async = e; h.onload = function () {
+                    window[i].init(
+                        { argument: s, auto: true }
+                    );
+                }; h._p = o; return h;
+            }, h = f(a, d, e, b, i, s), l = '//taj', j = b + s + '/cmt.js'; h.src = l + '1.' + j;
             h._p.parentNode.insertBefore(h, h._p); h.onerror = function (k) {
                 k = f(a, d, e, b, i, s);
                 k.src = l + '2.' + j; k._p.parentNode.insertBefore(k, k._p);
@@ -86,6 +86,20 @@
         })(document, 'script', true, 'ebis.ne.jp/', 'ebis', '3cKbUegU');
     </script>
     <!-- EBiS tag end -->
+    
+    <!-- 20200708 聯盟網 -->
+    <script type="text/javascript">
+        (function () {
+            var VARemoteLoadOptions = {
+                whiteLabel: { id: 8, siteId: 1866, domain: 'vbtrax.com' },
+                locale: "en-US", mkt: true
+            };
+            (function (c, o, n, v, e, r, l, y) {
+                c['VARemoteLoadOptions'] = e; r = o.createElement(n), l = o.getElementsByTagName(n)[0];
+                r.async = 1; r.src = v; l.parentNode.insertBefore(r, l);
+            })(window, document, 'script', 'https://cdn.vbtrax.com/javascripts/va.js', VARemoteLoadOptions);
+        })();
+    </script>
 
     <!-- ▲自由編集箇所▲ -->
 </head>

@@ -124,6 +124,7 @@
     <!-- 20200708 聯盟網 -->
     <script type="text/javascript">
         if (getJsonFromUrl().utm_source == 'affiliates') {
+            console.log("utm_source == 'affiliates'")
             (function () {
                 var VARemoteLoadOptions = {
                     whiteLabel: { id: 8, siteId: 1866, domain: 'vbtrax.com' },
@@ -132,6 +133,7 @@
                 (function (c, o, n, v, e, r, l, y) {
                     c['VARemoteLoadOptions'] = e; r = o.createElement(n), l = o.getElementsByTagName(n)[0];
                     r.async = 1; r.src = v; l.parentNode.insertBefore(r, l);
+                    console.log("進入聯盟網")
                 })(window, document, 'script', 'https://cdn.vbtrax.com/javascripts/va.js', VARemoteLoadOptions);
             })();
         }

@@ -12,7 +12,7 @@ $(document).ready(function () {
         },900);
     });
     // 立即訂購btn動態
-    $('.buybtn').click(function (e) { 
+    $('.buybtn,a[href="#size"]').click(function (e) { 
         e.preventDefault();
         $('html , body').animate({
             scrollTop: $('#size').offset().top,

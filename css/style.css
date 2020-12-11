@@ -3,7 +3,7 @@ html,body {
         padding: 0;
         height: 100%;
         border: none;
-        /* background-color: #c32a2f; */
+        background-color: #c32a2f;
     }
 .main {
     width: 100%;
@@ -41,7 +41,7 @@ html,body {
     width: 63%;
     display: block;
     right: 18%;
-    top: 42.5%;
+    top: 46.5%;
 }
 
 .SP .offerbox_m .offerbtn_m_2{

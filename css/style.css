@@ -23,6 +23,7 @@ html,body {
     cursor: pointer;
 }
 .anniversary_2 {
+    display:none;
     position:fixed;
     z-index:98;
     top:-3%;
@@ -33,6 +34,7 @@ html,body {
     width:115vh;
 }
 .SP_anniversary_2 {
+    display:none;
     position:fixed;
     z-index:98;
     top:-3vh;

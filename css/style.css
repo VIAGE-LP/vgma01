@@ -19,6 +19,30 @@ html,body {
     margin: 0 auto;
 }
 
+.anniversary_1{
+    cursor: pointer;
+}
+.anniversary_2 {
+    position:fixed;
+    z-index:98;
+    top:-3%;
+    right:-33.3vh;
+    left:-33.3vh;
+}
+.anniversary_2 img{
+    width:115vh;
+}
+.SP_anniversary_2 {
+    position:fixed;
+    z-index:98;
+    top:-3vh;
+    right:-33.3vh;
+    left:-33.3vh;
+}
+.SP_anniversary_2 img{
+    width:110vh;
+}
+
 .PC .offerbox{
     position: relative;
 }

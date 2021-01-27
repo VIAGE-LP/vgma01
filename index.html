@@ -64,6 +64,10 @@
     <!-- <link rel="stylesheet" href="css/buybtn.css" type="text/css" media="all"> -->
     <link rel="stylesheet" href="css/nav.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics 20200212-->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120013759-3"></script>
@@ -184,6 +188,21 @@
                     <img src="./img/SP/SP_03.jpg" alt="">
                     <img src="./img/SP/SP_ig_title.jpg" alt="">
                 </div>
+
+                <!-- 彈跳視窗 -->
+                <script>
+                    //週年慶活動辦法下拉選單
+                    $(".anniversary_2 img,.anniversary_2, .SP_anniversary_2 img,.SP_anniversary_2").hide();
+                    $('.anniversary_1, .SP_anniversary_1').click(function (e) {
+                        e.preventDefault();
+                        $(".anniversary_2 img,.anniversary_2, .SP_anniversary_2 img,.SP_anniversary_2").attr("style", "display:block;");
+                    });
+                    $('.anniversary_2, .SP_anniversary_2').click(function (e) {
+                        e.preventDefault();
+                        $(".anniversary_2 img,.anniversary_2, .SP_anniversary_2 img,.SP_anniversary_2").hide();
+                    });
+                </script>
+
                 <section id="report">
                     <div class="container">
                         <div class="ig_slider"></div>
@@ -217,7 +236,7 @@
                     </div>
                     <img src="./img/15.jpg" style="width:70%;" alt="">
                     <div class="box16" style="width: 70%;background: white;margin: 0 auto;">
-                        <img src="./img/16.jpg" style="width:70%;" alt="">                    
+                        <img src="./img/16.jpg" style="width:70%;" alt="">
                     </div>
                     <img src="./img/17.jpg" style="width:70%;" alt="">
                     <img src="./img/18.jpg" style="width:70%;" alt="">
@@ -395,9 +414,6 @@
     </script>
 
     <!-- 網頁設計師編輯區塊 -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
@@ -410,7 +426,6 @@
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script src='js/user_data.js'></script>
     <script src='js/ig.js'></script>
-    <!-- <script src="js/buybtn.js"></script> -->
     <script src="js/all.js"></script>
 </body>
 

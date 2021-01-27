@@ -1,8 +1,10 @@
 html,body {
         margin: 0;
         padding: 0;
-        height: 100%;
         border: none;
+        background-image: linear-gradient(#F2E3CA, white, #F2E3CA);
+        /* background-image: linear-gradient(to bottom right,#F2E3CA, #fff6e8, #F2E3CA); */
+        /* background-color: #F2E3CA; */
     }
 .main {
     width: 100%;

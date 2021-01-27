@@ -3,8 +3,6 @@ html,body {
         padding: 0;
         border: none;
         background-image: linear-gradient(#F2E3CA, white, #F2E3CA);
-        /* background-image: linear-gradient(to bottom right,#F2E3CA, #fff6e8, #F2E3CA); */
-        /* background-color: #F2E3CA; */
     }
 .main {
     width: 100%;
@@ -33,18 +31,20 @@ html,body {
     left:-33.3vh;
 }
 .anniversary_2 img{
-    width:115vh;
+    display:none;
+    width:30%;
 }
 .SP_anniversary_2 {
     display:none;
     position:fixed;
     z-index:98;
-    top:-3vh;
+    top:5%;
     right:-33.3vh;
     left:-33.3vh;
 }
 .SP_anniversary_2 img{
-    width:110vh;
+    display:none;
+    width:50%;
 }
 
 .PC .offerbox{
